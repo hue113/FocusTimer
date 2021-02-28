@@ -15,12 +15,12 @@ export const Countdown = ({ minutes = 1, isPaused, onProgress, onEnd }) => {
     setMillis((time) => {
       if (time === 0) {
         clearInterval(interval.current);
-        onEnd();
+        // onEnd();   // cause side-effects error: cannot update a component from inside the function body of a different component.
         return time;
       }
       console.log("time", time);
       const timeLeft = time - 1000;
-      onProgress(timeLeft / minutesToMillis(minutes));
+      // onProgress(timeLeft / minutesToMillis(minutes)); // cause side-effects error: cannot update a component from inside the function body of a different component.
       return timeLeft;
     });
   };
@@ -40,7 +40,9 @@ export const Countdown = ({ minutes = 1, isPaused, onProgress, onEnd }) => {
   }, [minutes]);
 
   useEffect(() => {
-    // onProgress(millis / minutesToMillis(minutes));
+    // fix side-effects error: cannot update a component from inside the function body of a different component
+    onProgress(millis / minutesToMillis(minutes));
+    if (millis === 0) onEnd();
     console.log("Countdown millis", millis);
   }, [millis]);
 
