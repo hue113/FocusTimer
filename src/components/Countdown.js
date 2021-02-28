@@ -39,11 +39,6 @@ export const Countdown = ({ minutes = 1, isPaused, onProgress, onEnd }) => {
     setMillis(minutesToMillis(minutes));
   }, [minutes]);
 
-  useEffect(() => {
-    // onProgress(millis / minutesToMillis(minutes));
-    console.log("Countdown millis", millis);
-  }, [millis]);
-
   const minute = Math.floor(millis / 1000 / 60) % 60;
   const seconds = Math.floor(millis / 1000) % 60;
 
