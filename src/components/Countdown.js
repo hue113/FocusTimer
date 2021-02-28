@@ -38,7 +38,7 @@ export const Countdown = ({ minutes = 1, isPaused, onProgress, onEnd }) => {
   useEffect(() => {
     setMillis(minutesToMillis(minutes));
   }, [minutes]);
-
+  
   useEffect(() => {
     // fix side-effects error: cannot update a component from inside the function body of a different component
     onProgress(millis / minutesToMillis(minutes));
