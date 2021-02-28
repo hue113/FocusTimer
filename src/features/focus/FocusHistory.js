@@ -25,7 +25,7 @@ export const FocusHistory = ({ focusHistory, onClear }) => {
               contentContainerStyle={{ flex: 1, alignItems: "center" }}
               data={focusHistory}
               renderItem={HistoryItem}
-              keyExtractor={(index) => index.toString()}
+              keyExtractor={(item, index) => index.toString()}
             />
             <View style={styles.clearContainer}>
               <RoundedButton
