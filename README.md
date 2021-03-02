@@ -13,11 +13,11 @@
 3. Keep motivation stays fresh
 
 ## App Images
-![App Screenshot](https://i.imgur.com/Y3P8YXR.png =250x)
 
-![App Screenshot](https://i.imgur.com/J4FrgDH.png =250x)
+<img src="https://i.imgur.com/Y3P8YXR.png" width="250">
+
+<img src="https://i.imgur.com/J4FrgDH.png" width="250">
 
 ## App Demo
 Please scan this QR code for expo demo
-
-![Expo Demo](https://i.imgur.com/Rro4EDN.png =250x)
+<img src="https://i.imgur.com/Rro4EDN.png" width="250">
