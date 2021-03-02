@@ -1,11 +1,23 @@
-# Sample Snack app
+# Welcome to Focus Timer!
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by clicking the **Run** button or use the simulator by clicking **Tap to Play**. When you're done, click **Save** and share the link!
+**FocusTimer** is a Productivity App to help you focus and block distractions. This simple yet effective app to help you maximize efficiency by using a countdown timer to guides your focus on a concentrated task for 10 - 15 - 20 minutes.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Export** your project and use it with [expo-cli](https://docs.expo.io/versions/latest/introduction/installation.html).
+ 1. Enter task you want to focus on
+ 2. Set timer
+ 3. Work on the task
+ 4. When the phone vibrates, you complete the task!
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the **Embed** button.
+## Benefits of using Focus Timer
+1. The app is easy to use
+2. Maintain healthy work habits
+3. Keep motivation stays fresh
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io).
+## App Images
+![App Screenshot](https://i.imgur.com/Y3P8YXR.png)
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack-web).
+![App Screenshot](https://i.imgur.com/J4FrgDH.png)
+
+## App Demo
+Please scan this QR code for expo demo
+
+![Expo demo](https://i.imgur.com/Rro4EDN.png)
