@@ -18,6 +18,5 @@
 
 <img src="https://i.imgur.com/J4FrgDH.png" width="250">
 
-## App Demo
-Please scan this QR code for expo demo
+## App Demo (Scan QR Code)
 <img src="https://i.imgur.com/Rro4EDN.png" width="250">
